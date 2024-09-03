@@ -34,7 +34,10 @@ This allows me to see the activity going on in your repository, create issues, r
 4. Click `Add People` and type `profphip` into the text box. Click `Add profphip to this repository`
 
 ### Step 4: Clone your repository
-You've created your repository, but you don't have the code locally on your computer yet. Clone your repo by clicking the `<code>` button, and copying the HTTPS URL provided in the drop down box. Then, open your terminal, use the `cd /path/to/directory` command to go to the directory of your choosing on your computer (I created a `Github` folder), and issue the `git clone` command to clone your repository to your computer.
+You've created your repository, but you don't have the code locally on your computer yet. Clone your repo by clicking the `<code>` button, and copying the HTTPS URL provided in the drop down box. Then, open your terminal, use the `cd /path/to/directory` command to go to the directory of your choosing on your computer (I created a `Github` folder), and issue the `git clone` command to clone your repository to your computer.   
+
+Note: If you are a Windows user, you will have to install git if you do not have it already: https://git-scm.com/downloads
+
 ```bash
 # this can be wherever you want!
 cd /path/to/directory
@@ -68,4 +71,4 @@ go to your cmpt221 repository in Github and click `Sync fork` then click `Update
     git push --set-upstream origin <branch name>
     git push -u origin <branch name>
     ```
-4. Once your lab is complete and you're ready to submit it, push your code. Then, go to your `cmpt221` repository and click `Pull requests` in the top menu bar. Click `New pull request`. Keep the `base:main`, and select the branch you'd like to compare: `compare:<branch name>`. Then click `Create pull request`. Add a title and a description, and click `Create pull request`. Once the pull request is created, add `profphip` as a reviewer, copy the link to your pull request, and submit it under the corresponding lab in Brightspace. 
+4. Once your lab is complete and you're ready to submit it, push your code. Then, go to your `cmpt221` repository and click `Pull requests` in the top menu bar. Click `New pull request`. Make sure your OWN project is selected (not mine), keep the `base:main`, and select the branch you'd like to compare: `compare:<branch name>`. Then click `Create pull request`. Add a title and a description, and click `Create pull request`. Once the pull request is created, add `profphip` as a reviewer, copy the link to your pull request, and submit it under the corresponding lab in Brightspace. 
