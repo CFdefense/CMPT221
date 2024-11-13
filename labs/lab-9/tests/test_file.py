@@ -85,7 +85,7 @@ def test_bad_login(sample_bad_signup):
         assert True, "FirstName Failed While Containing Numbers"
 
 # 5. one last one to test other parameters
-def test_insert_user_email(db_session, sample_signup_input):
+def test_insert_user_email(db_session, sample_signup_input): 
     insert_stmt = insert(User).values(sample_signup_input)
 
     # execute insert query
