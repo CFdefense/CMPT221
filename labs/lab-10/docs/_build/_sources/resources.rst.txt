@@ -6,40 +6,40 @@ This section describes class and functions private to <application-name>. It is 
 
 labs.lab-1
 ----------
-<Short description of Lab 1>
+Make a Pull Request
 
 labs.lab-2
 ----------
-<Short description of Lab 2>
+Make a Python Virtual Environment
 
 labs.lab-3
 ----------
-<Short description of Lab 3>
+Connecting to a Database
 
 labs.lab-4
 ----------
-<Short description of Lab 4>
+Executing SQL Commands
 
 labs.lab-5
 ----------
-<Short description of Lab 5>
+Implement an HTML GUI
 
 labs.lab-6
 ----------
-<Short description of Lab 6>
+Login/Signup Using Methods and Forms
 
 labs.lab-7
 ----------
-<Short description of Lab 7>
+Input Validation and Sanitization
 
 labs.lab-8
 ----------
-<Short description of Lab 8>
+Apply Use of Javascript 
 
 labs.lab-9
 ----------
-<Short description of Lab 9>
+Using Pytest to Test Some Code
 
 labs.lab-10
 -----------
-<Short description of Lab 10>
+Learning Documentation
