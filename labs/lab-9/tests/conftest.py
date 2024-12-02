@@ -5,6 +5,11 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
+from dotenv import load_dotenv
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import insert, select, text
+from models import User
 
 # contains table objects
 Base = declarative_base()
@@ -43,3 +48,13 @@ def sample_signup_input():
             'PhoneNumber': '1234567891', 
             'Password': 'mypassword'
             }
+
+# bad input for creating a user
+@pytest.fixture
+def sample_bad_signup():
+    return {'FirstName':'123Christian',
+            'LastName':'Farrell',
+            'Email':'CFdefence@gmail.com',
+            'PhoneNumber':'1234567891',
+            'Password':'password',
+           }
